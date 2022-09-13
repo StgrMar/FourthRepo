@@ -16,15 +16,28 @@ const getOther_items2 = document.querySelectorAll('.other-items.percent');
 console.log(getOther_items);
 console.log(getOther_items2);
 
-const getInputType = document.querySelector('.main-controls__range');
-console.dir(getInputType.childNodes[1]);
+const getInputType = document.querySelector('.rollback input');
+console.log(getInputType);
 
-const getInputType2 = document.querySelector('div > span:last-child');
+const getInputType2 = document.querySelector('.rollback span');
 console.log(getInputType2);
 
-const getTotal_input = document.getElementsByClassName('total-input');
-console.log(getTotal_input);
+const getTotal = document.getElementsByClassName('total-input');
+console.log(getTotal[0]);
 
-let screen = document.querySelectorAll('option');
-console.log(screen);
+const getTotalCount = document.getElementsByClassName('total-input');
+console.log(getTotalCount[1]);
+
+const getTotalCountOther = document.getElementsByClassName('total-input');
+console.log(getTotalCountOther[2]);
+
+const getTotalFullCount = document.getElementsByClassName('total-input');
+console.log(getTotalFullCount[3]);
+
+const getTotalCountRollback = document.getElementsByClassName('total-input');
+console.log(getTotalCountRollback[4]);
+
+
+let screens = document.querySelectorAll('.screen option');
+console.log(screens);
 
